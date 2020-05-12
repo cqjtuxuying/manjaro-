@@ -1,0 +1,42 @@
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '008B8B',
+	cpu_avg_samples = 2,
+	default_color = 'CD853F',
+	double_buffer = true,
+	font = 'Bitstream Vera Sans:size=11',
+	draw_shades = false,
+	gap_x = 25,
+	gap_y = 45,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+conky.text = [[
+${color2}send to workspace 1-5: ${color}mod+Ctrl+1-5
+${color2}toggle floating:${color}mod+Shift+Space
+${color2}open netease-cloud-music:${color}mod+x
+${color2}switch workspace 1-5:${color}mod+1-5
+${color2}toggle split direction:${color}mod+q
+${color2}open deepin-screenshot:${color}mod+p
+${color2}open new terminal:${color}mod+Enter
+${color2}kill focused:${color}mod+Shift+q
+${color2}open reload:${color}mod+shift+r
+${color2}open albert:${color}mod+Ctrl+b
+${color2}open file manger:${color}mod+8
+${color2}open ulauncher:${color}mod+d
+${color2}open nextcloud:${color}mod+z
+${color2}open spotify:${color}mod+7
+${color2}open chrome:${color}mod+g
+${color2}open typora:${color}mod+6
+${color2}lock screen:${color}mod+9
+${color2}open vscode:${color}mod+c
+${color2}open resize:${color}mod+r
+
+${color2}default mod:${color}<windows>
+]]
